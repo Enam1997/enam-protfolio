@@ -5,23 +5,23 @@ const HeaderSocials = () => {
   return (
     <div className="home__socials">
         <a href="" className="home__social_link" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
+        <i className="fa-brands fa-instagram"></i>
         </a>
 
         <a href="" className="home__social_link" target="_blank">
-        <i class="fa-brands fa-twitter"></i>
+        <i className="fa-brands fa-twitter"></i>
         </a>
 
         <a href="" className="home__social_link" target="_blank">
-        <i class="fa-brands fa-behance"></i>
+        <i className="fa-brands fa-behance"></i>
         </a>
 
         <a href="" className="home__social_link" target="_blank">
-        <i class="fa-brands fa-dribbble"></i>
+        <i className="fa-brands fa-dribbble"></i>
         </a>
 
         <a href="" className="home__social_link" target="_blank">
-        <i class="fa-brands fa-pinterest"></i>
+        <i className="fa-brands fa-pinterest"></i>
         </a>
 
     </div>
