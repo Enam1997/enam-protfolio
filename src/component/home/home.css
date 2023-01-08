@@ -9,6 +9,7 @@
 .intro{
     max-width: 540px;
     text-align: center;
+    z-index: 1;
 
 }
 
@@ -35,7 +36,7 @@
 
 }
 
-.home__social-link i:hover {
+.home__social-link i:hover{
     color: hsl(43, 100%, 68%);
 }
 
