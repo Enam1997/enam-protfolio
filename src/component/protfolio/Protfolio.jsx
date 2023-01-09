@@ -19,7 +19,7 @@ const Protfolio = () => {
 
 
   return (
-    <section className="work container section">
+    <section className="work container section" id='work'>
 
       <h2 className="section__title">
         Recent Works
