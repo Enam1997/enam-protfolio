@@ -30,6 +30,24 @@ const data = [
     comment:
       "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
   },
+
+  {
+    id: 3,
+    image: Image3,
+    title: "Murad Hossain",
+    subtitle: "Product designer at Dribble",
+    comment:
+      "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+  },
+
+  {
+    id: 4,
+    image: Image1,
+    title: "Murad Hossain",
+    subtitle: "Product designer at Dribble",
+    comment:
+      "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+  },
 ];
 
 const Testimonials = () => {

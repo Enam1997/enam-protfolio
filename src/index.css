@@ -120,7 +120,7 @@ img{
   padding-bottom: 2rem;
 }
 
-.ssection__title{
+.section__title{
   font-size: var(--h1-font-size);
   margin-left: 0.875rem;
   font-weight: var(--font-bold);
