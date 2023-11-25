@@ -5,6 +5,7 @@ import HeaderSocials from "./HeaderSocials";
 import ScroolDown from "./ScroolDown";
 import Shapes from "./Shapes";
 import ProfilePic from "../../assets/profilePic.jpg";
+import Technology from "../technology/Technology";
 
 const Home = () => {
   return (
@@ -20,6 +21,8 @@ const Home = () => {
         <a href="#contact" className="btn">
           Hire me
         </a>
+
+        <Technology />
 
         <ScroolDown />
       </div>

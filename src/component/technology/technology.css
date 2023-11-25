@@ -1,0 +1,35 @@
+.technology__slider {
+  /* position: absolute;
+  bottom: 6rem;
+  left: 0; */
+  width: 100%;
+  overflow: hidden;
+  max-width: 540px;
+  margin-top: 40px;
+}
+
+.technology__container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.technology__item {
+  text-align: center;
+  /* padding: 0 1.25rem 1.25rem; */
+}
+
+.tech__logo {
+  width: 100%;
+  height: 5.6rem;
+  width: 5.6rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .tech__logo {
+    width: 100%;
+    height: 3.6rem;
+    width: 3.6rem;
+    margin: 0 auto;
+  }
+}

@@ -12,7 +12,7 @@ const HeaderSocials = () => {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/md-enam-ahmed-chowdhury-937196171/"
+        href="https://www.linkedin.com/in/md-enam-ahamed-chowdhury-937196171/"
         className="home__social_link"
         target="_blank"
       >

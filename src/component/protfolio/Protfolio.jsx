@@ -28,13 +28,13 @@ const Protfolio = () => {
       <div className="work__filters">
         <span className="work__item"  onClick={() => setItems(Menu)}>Everything</span>
         <span className="work__item" onClick={() => filterItem
-        ("Creative")}>Creative</span>
+        ("Design")}>React</span>
         <span className="work__item" onClick={() => filterItem
-        ("Art")}>Art</span>
+        ("Art")}>Dashboard</span>
         <span className="work__item" onClick={() => filterItem
-        ("Design")}>Design</span>
+        ("Creative")}>Website</span>
         <span className="work__item" onClick={() => filterItem
-        ("Branding")}>Branding</span>
+        ("Branding")}>LandingPage</span>
 
       </div>
 

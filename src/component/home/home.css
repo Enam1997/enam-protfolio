@@ -1,5 +1,6 @@
 .home {
   position: relative;
+  height: 100vh;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -9,7 +10,11 @@
 .intro {
   max-width: 540px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   z-index: 1;
+  overflow: hidden;
 }
 
 .home__img {
@@ -43,9 +48,10 @@
 
 .scrool__down {
   position: absolute;
-  bottom: 2.5rem;
-  left: 0;
+  bottom: 1.2rem;
+  left: 0px;
   width: 100%;
+
 }
 
 .home__scroll-name {
@@ -55,8 +61,8 @@
 .mouse {
   border: 2px solid #454360;
   display: block;
-  height: 2.6rem;
-  width: 1.75rem;
+  height: 2.8rem;
+  width: 1.95rem;
   margin: auto;
   margin-top: 0.75rem;
   border-radius: 1rem;

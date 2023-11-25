@@ -8,24 +8,24 @@ const data = [
   {
     id: 1,
     image: Image2,
-    title: "Web Development",
+    title: "Front-end web development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Develope Front-end using HTML, CSS, Javascript, React, MaterialUI, Tailwind CSS, SASS.",
   },
   {
     id: 2,
     image: Image1,
-    title: "UI/UX design",
+    title: "Backend Api development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Develope Backend Api using NodeJS, ExpressJs, MongoDb, Firebase, SQL.",
   },
 
   {
     id: 3,
     image: Image3,
-    title: "Photography",
+    title: "Mobile app development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Develope Mobile app Using Java, Dart, Flutter.",
   },
 ];
 
