@@ -10,6 +10,10 @@ import Testimonial from "./component/testimonials/Testimonials";
 import Blog from "./component/blog/Blog";
 import Contact from "./component/contact/Contact";
 
+// Add React Messanger Chat
+
+import MessengerCustomerChat from "react-messenger-customer-chat";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -28,6 +32,12 @@ function App() {
         <Testimonial />
         <Blog />
         <Contact />
+
+        <MessengerCustomerChat
+          pageId="157027024168819"
+          appId="710001464411314"
+          // htmlRef="<REF_STRING>"
+        />
       </main>
     </>
   );
