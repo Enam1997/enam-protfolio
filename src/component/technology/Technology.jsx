@@ -2,6 +2,9 @@ import React from "react";
 import SwiperCore, { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+
+
+
 import Image1 from "../../assets/avatar-1.svg";
 import Image3 from "../../assets/avatar-3.svg";
 import "./technology.css"

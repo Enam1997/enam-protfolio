@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
     <>
       <aside className={toggle ? "aside show-menu" : "aside"}>
-        <a href="#home" className="nav__logo">
+        <a href="/#home" className="nav__logo">
           <img src={Logo} alt="" />
         </a>
 
@@ -17,37 +17,37 @@ const Sidebar = () => {
           <div className="nav__menu">
             <ul className="nav__list">
               <li className="nav__item">
-                <a href="#home" className="nav__link">
+                <a href="/#home" className="nav__link">
                   <i className="icon-home"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#about" className="nav__link">
+                <a href="/#about" className="nav__link">
                   <i className="icon-following"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#services" className="nav__link">
+                <a href="/#services" className="nav__link">
                   <i className="icon-briefcase"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#resume" className="nav__link">
+                <a href="/#resume" className="nav__link">
                   <i className="icon-graduation"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#work" className="nav__link">
+                <a href="/#work" className="nav__link">
                   <i className="icon-layers"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#pricing" className="nav__link">
+                <a href="/#pricing" className="nav__link">
                   <i className="icon-note"></i>
                 </a>
               </li>
               <li className="nav__item">
-                <a href="#contact" className="nav__link">
+                <a href="/#contact" className="nav__link">
                   <i className="icon-bubble"></i>
                 </a>
               </li>
