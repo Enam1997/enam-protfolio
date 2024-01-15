@@ -15,7 +15,7 @@ const ProjectImageSlider = () => {
   };
 
   return (
-    <div className="">
+    <div className="image-slider">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
