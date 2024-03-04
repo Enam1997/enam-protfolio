@@ -37,12 +37,12 @@ const Protfolio = () => {
       </div>
 
       <div className="work__container grid">
-        {items.map((elem) => {
-          const { id, image, title, category } = elem;
+        {items.map((elem, index) => {
+          const { id, bannerImage, title, category } = elem;
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
-                <img src={image} alt="" className="work__img" />
+                <img src={bannerImage} alt="" className="work__img" />
                 <div className="work__mask"></div>
               </div>
               <span className="work__category">{category}</span>
@@ -50,7 +50,7 @@ const Protfolio = () => {
               {/* <a href="" className="work__button">
                 <i className="icon-link work__button-icon"></i>
               </a> */}
-              <Link to={"/projectdetails"} className="work__button">
+              <Link to={`/projectdetails/${id}`} className="work__button">
                 <i className="icon-link work__button-icon"></i>
               </Link>
             </div>
